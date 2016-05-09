@@ -1,4 +1,5 @@
-body{width: 98%; margin: auto; text-align: center;background: url(""); }
+
+body{width: 98%; margin: auto; text-align: center;background: #F0F0F0  ; }
 
 img {
 	display:inline-block;
@@ -10,6 +11,8 @@ img {
 	width: 100%;
 	font-family: "Open Sans";
 	height: 70px;
+	background-color: grey;
+	color:white;
 	}
 .menu {
 	text-align:left;
@@ -22,22 +25,28 @@ a{
 	color:grey;	
 	font-size: 14px;
 	margin:7px;	
+	color:white;
 }
 .portada{
-	height: 300px;
+	height: 330px;
 	margin-top: 100px;
 	}
 .portada img{
-	height: 300px;
+	height: 330px;
+	width: 500px;
 	}
 .texto{
-	height: 300px;
-	padding:3px 50px 3px 0px;
+	height: 330px;
+	padding:3px 150px 3px 0px;
 	text-align: left;
 	}
-.menu img{
+.menuizquierda img{
 	height: 10px;
 	width: 10px;
+	float:right;
+	}
+.menuderecha{
+	float: left;
 	}
 button{
 	padding:4px 11px;
@@ -46,8 +55,17 @@ button{
 	color:white;
 	margin:20px;
 	}
+hr{
+	border: 3px dotted grey;
+	margin:50px;
+	}
 .lastsection{
 	margin: 40px;
+	height: 70px;
+	}
+.lastsection p{
+	height: 50px;
+	padding-top:15px;
 	}
 .diplay{
 	display:inline-block;
@@ -59,3 +77,26 @@ footer{
 footer p{
 	color: white;
 	}
+.plomoclaro{
+	border:#C0C0C0;
+	color:#C0C0C0;
+	}
+.izquierda{
+	text-align:left;
+	margin-left: 100px;
+	}
+.ajuste{
+	overflow: hidden;
+	}
+.plomooscuro{
+	color:#404040;
+	}
+i{
+ border:1px dotted;	
+ border-radius: 50%;
+ padding:5px;
+}
+input{
+	background-color: #404040;
+	}
+
